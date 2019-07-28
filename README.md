@@ -8,5 +8,5 @@ In this project we Display store information of running processes like its name,
 ###### Compile ######
 >cl [ option... ] filename... [ /link linkoption... ]  
 ###### Execute ######
-./filename
+/out filename
 
