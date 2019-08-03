@@ -5,7 +5,7 @@
 //	Name :			ThreadInfo
 //	Input :			DWORD
 //	Output :		NONE
-//	Description :	Constructor for class ThreadInfo
+//	Description :		Constructor for class ThreadInfo
 //	Date :			20 July 2019
 //	Author :		Shubham Girish Dhirde
 //
@@ -27,7 +27,7 @@ ThreadInfo::ThreadInfo(DWORD no)
 //	Name :			ThreadDisplay
 //	Input :			NONE
 //	Output :		BOOLEAN
-//	Description :	Displays information about curruntly running threads of processes
+//	Description :		Displays information about curruntly running threads of processes
 //	Date :			20 July 2019
 //	Author :		Shubham Girish Dhirde
 //
@@ -61,7 +61,7 @@ BOOL ThreadInfo::ThreadDisplay()
 //	Name :			DLLInfo
 //	Input :			NONE
 //	Output :		NONE
-//	Description :	Constructor for class DLL Display
+//	Description :		Constructor for class DLL Display
 //	Date :			20 July 2019
 //	Author :		Shubham Girish Dhirde
 //
@@ -84,7 +84,7 @@ DLLInfo::DLLInfo(DWORD no)
 //	Name :			DependentDLLDisplay
 //	Input :			NONE
 //	Output :		BOOLEAN
-//	Description :	Displays information of dependable Dynamic Link Library
+//	Description :		Displays information of dependable Dynamic Link Library
 //	Date :			20 July 2019
 //	Author :		Shubham Girish Dhirde
 //
@@ -120,7 +120,7 @@ BOOL DLLInfo::DependentDLLDisplay()
 //	Name :			ProcessInfo
 //	Input :			NONE
 //	Output :		NONE
-//	Description :	Constructor for class ProcessInfo
+//	Description :		Constructor for class ProcessInfo
 //	Date :			20 July 2019
 //	Author :		Shubham Girish Dhirde
 //
@@ -145,7 +145,7 @@ ProcessInfo::ProcessInfo()
 //	Name :			ProcessLog
 //	Input :			NONE
 //	Output :		BOOLEAN
-//	Description :	Generates log file of running processes
+//	Description :		Generates log file of running processes
 //	Date :			20 July 2019
 //	Author :		Shubham Girish Dhirde
 //
@@ -203,7 +203,7 @@ BOOL ProcessInfo::ProcessLog()
 //	Name :			ProcessDisplay
 //	Input :			NONE
 //	Output :		BOOLEAN
-//	Description :	Displays curruntly running processes
+//	Description :		Displays curruntly running processes
 //	Date :			20 July 2019
 //	Author :		Shubham Girish Dhirde
 //
@@ -259,7 +259,7 @@ BOOL ProcessInfo::ProcessDisplay(char* option)
 //	Name :			ReadLog
 //	Input :			NONE
 //	Output :		BOOLEAN
-//	Description :	Reads log file created by ProcessLog
+//	Description :		Reads log file created by ProcessLog
 //	Date :			20 July 2019
 //	Author :		Shubham Girish Dhirde
 //
@@ -297,7 +297,7 @@ BOOL ProcessInfo::ReadLog(DWORD hr, DWORD min, DWORD date, DWORD month)
 //	Name :			ProcessSearch
 //	Input :			NONE
 //	Output :		BOOLEAN
-//	Description :	Search process by name
+//	Description :		Search process by name
 //	Date :			20 July 2019
 //	Author :		Shubham Girish Dhirde
 //
@@ -337,7 +337,7 @@ BOOL ProcessInfo::ProcessSearch(char* name)
 //	Name :			KillProcess
 //	Input :			NONE
 //	Output :		BOOLEAN
-//	Description :	Kills process
+//	Description :		Kills process
 //	Date :			20 July 2019
 //	Author :		Shubham Girish Dhirde
 //
@@ -395,7 +395,7 @@ BOOL ProcessInfo::KillProcess(char *name)
 //	Name :			HardwareInfo
 //	Input :			NONE
 //	Output :		BOOLEAN
-//	Description :	Displays information of system hardware
+//	Description :		Displays information of system hardware
 //	Date :			20 July 2019
 //	Author :		Shubham Girish Dhirde
 //
@@ -422,7 +422,7 @@ BOOL HardwareInfo()
 //	Name :			DisplayHelp
 //	Input :			NONE
 //	Output :		NONE
-//	Description :	Displays commands used in Process Explorer
+//	Description :		Displays commands used in Process Explorer
 //	Date :			20 July 2019
 //	Author :		Shubham Girish Dhirde
 //
